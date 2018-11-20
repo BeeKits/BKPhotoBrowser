@@ -17,6 +17,8 @@
 		FD1FCB0421A3E70A00302EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1FCB0221A3E70A00302EDD /* LaunchScreen.storyboard */; };
 		FD1FCB0F21A3E70A00302EDD /* BKPhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FCB0E21A3E70A00302EDD /* BKPhotoBrowserTests.swift */; };
 		FD1FCB1A21A3E70A00302EDD /* BKPhotoBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FCB1921A3E70A00302EDD /* BKPhotoBrowserUITests.swift */; };
+		FD1FCB2921A3F66400302EDD /* BKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FCB2821A3F66400302EDD /* BKPhotoBrowser.swift */; };
+		FD1FCB2C21A3F72700302EDD /* UIWindow+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FCB2B21A3F72700302EDD /* UIWindow+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		FD1FCB1521A3E70A00302EDD /* BKPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1FCB1921A3E70A00302EDD /* BKPhotoBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKPhotoBrowserUITests.swift; sourceTree = "<group>"; };
 		FD1FCB1B21A3E70A00302EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1FCB2821A3F66400302EDD /* BKPhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKPhotoBrowser.swift; sourceTree = "<group>"; };
+		FD1FCB2B21A3F72700302EDD /* UIWindow+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,6 @@
 				3DAB454BB4CC33A2474AD9A1 /* Pods-BKPhotoBrowserUITests.debug.xcconfig */,
 				2BF030B123E811A8C2C0B2E5 /* Pods-BKPhotoBrowserUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +141,7 @@
 		FD1FCAF821A3E70800302EDD /* BKPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				FD1FCB2721A3F64000302EDD /* Utils */,
 				FD1FCAF921A3E70800302EDD /* AppDelegate.swift */,
 				FD1FCAFB21A3E70800302EDD /* ViewController.swift */,
 				FD1FCAFD21A3E70800302EDD /* Main.storyboard */,
@@ -164,6 +168,23 @@
 				FD1FCB1B21A3E70A00302EDD /* Info.plist */,
 			);
 			path = BKPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		FD1FCB2721A3F64000302EDD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FD1FCB2A21A3F6FD00302EDD /* Extension */,
+				FD1FCB2821A3F66400302EDD /* BKPhotoBrowser.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FD1FCB2A21A3F6FD00302EDD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD1FCB2B21A3F72700302EDD /* UIWindow+Ex.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +417,8 @@
 			files = (
 				FD1FCAFC21A3E70800302EDD /* ViewController.swift in Sources */,
 				FD1FCAFA21A3E70800302EDD /* AppDelegate.swift in Sources */,
+				FD1FCB2C21A3F72700302EDD /* UIWindow+Ex.swift in Sources */,
+				FD1FCB2921A3F66400302EDD /* BKPhotoBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
